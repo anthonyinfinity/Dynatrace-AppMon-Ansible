@@ -1,6 +1,5 @@
 {
   "HELP": [
-    3,
     0,
     1,
     2,
@@ -8,7 +7,9 @@
     4
   ],
   "ANALYSIS": [],
-  "IN_PROGRESS": [],
+  "IN_PROGRESS": [
+    3
+  ],
   "TESTING": [],
   "DONE": []
 }
