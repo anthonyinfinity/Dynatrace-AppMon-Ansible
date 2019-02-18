@@ -29,6 +29,10 @@
     {
       "hidden": false,
       "name": "DONE"
+    },
+    {
+      "name": "BACKLOG",
+      "hidden": false
     }
   ],
   "code": {
@@ -49,7 +53,8 @@
       "HELP",
       "ANALYSIS",
       "IN_PROGRESS",
-      "TESTING"
+      "TESTING",
+      "BACKLOG"
     ]
   },
   "keepEmptyPriority": true,
