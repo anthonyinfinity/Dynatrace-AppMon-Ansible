@@ -15,23 +15,23 @@
   },
   "lists": [
     {
-      "hidden": false,
-      "name": "ANALYSIS"
-    },
-    {
-      "hidden": false,
-      "name": "IN_PROGRESS"
-    },
-    {
-      "hidden": false,
-      "name": "TESTING"
-    },
-    {
-      "hidden": false,
-      "name": "DONE"
-    },
-    {
       "name": "BACKLOG",
+      "hidden": false
+    },
+    {
+      "name": "ANALYSIS",
+      "hidden": false
+    },
+    {
+      "name": "IN_PROGRESS",
+      "hidden": false
+    },
+    {
+      "name": "TESTING",
+      "hidden": false
+    },
+    {
+      "name": "DONE",
       "hidden": false
     }
   ],
