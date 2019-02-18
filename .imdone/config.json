@@ -1,17 +1,29 @@
 {
-  "noHelp": true,
-  "sync": {
-    "useImdoneioForPriority": true,
-    "name": "anthonyinfinity/Dynatrace-AppMon-Ansible",
-    "id": "5b9a2791ebf764625e69d4e2"
-  },
-  "marked": {
-    "langPrefix": "language-",
-    "smartLists": true,
-    "pedantic": false,
-    "breaks": false,
-    "tables": true,
-    "gfm": true
+  "exclude": [
+    "^(node_modules|bower_components|\\.imdone|target|build|dist|logs|flow-typed|imdone-export.json)[\\/\\\\]?|\\.(git|svn|hg|npmignore)|\\~$|\\.(jpg|png|gif|swp|ttf|otf)$"
+  ],
+  "watcher": true,
+  "keepEmptyPriority": true,
+  "code": {
+    "include_lists": [
+      "TODO",
+      "DOING",
+      "DONE",
+      "PLANNING",
+      "FIXME",
+      "ARCHIVE",
+      "HACK",
+      "CHANGED",
+      "XXX",
+      "IDEA",
+      "NOTE",
+      "REVIEW",
+      "MARK",
+      "HELP",
+      "ANALYSIS",
+      "IN_PROGRESS",
+      "TESTING"
+    ]
   },
   "lists": [
     {
@@ -35,30 +47,18 @@
       "hidden": false
     }
   ],
-  "code": {
-    "include_lists": [
-      "TODO",
-      "DOING",
-      "DONE",
-      "PLANNING",
-      "FIXME",
-      "ARCHIVE",
-      "HACK",
-      "CHANGED",
-      "XXX",
-      "IDEA",
-      "NOTE",
-      "REVIEW",
-      "MARK",
-      "HELP",
-      "ANALYSIS",
-      "IN_PROGRESS",
-      "TESTING"
-    ]
+  "marked": {
+    "langPrefix": "language-",
+    "smartLists": true,
+    "pedantic": false,
+    "breaks": false,
+    "tables": true,
+    "gfm": true
   },
-  "keepEmptyPriority": true,
-  "watcher": true,
-  "exclude": [
-    "^(node_modules|bower_components|\\.imdone|target|build|dist|logs|flow-typed|imdone-export.json)[\\/\\\\]?|\\.(git|svn|hg|npmignore)|\\~$|\\.(jpg|png|gif|swp|ttf|otf)$"
-  ]
+  "sync": {
+    "useImdoneioForPriority": true,
+    "name": "anthonyinfinity/Dynatrace-AppMon-Ansible",
+    "id": "5b9a2791ebf764625e69d4e2"
+  },
+  "noHelp": true
 }
